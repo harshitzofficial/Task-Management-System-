@@ -1,27 +1,15 @@
 # Task-Management-System-
-This is a Task Management System designed to help teams and individuals organize tasks, manage projects, collaborate through comments, and store attachments. The system uses MySQL as the database for storing and managing all records.
+This Task Management System is designed to help teams and individuals organize their work by allowing them to create projects, assign tasks, collaborate through comments, and manage attachments, with MySQL handling all data storage and relationships.
 
 # Features
-User registration and authentication
-Create and manage multiple projects
-Assign and track tasks
-Commenting system for collaboration
-Support for file attachments
-Many-to-many relationship between users and projects
-MySQL-powered data storage
+The system allows users to register and authenticate, create and manage multiple projects, assign and track tasks, add comments for collaboration, upload file attachments, and maintain a many-to-many relationship between users and projects using MySQL for reliable data storage.
 
 # Database Structure
-Users — stores user details
-Projects — stores project information
-Tasks — tracks tasks and their status
-Works_On — mapping table for user-project assignments
-Attachments — handles file-related data for tasks
-Comments — stores discussions or notes for each task
+The database consists of six main tables: Users for storing user information, Projects for managing project details, Tasks for tracking assigned work and statuses, Works_On for mapping users to projects, Attachments for storing files linked to tasks, and Comments for recording discussions or notes on each task.
 
-#Tech Stack
-MySQL (Database)
-SQL (Queries & Data Manipulation)
+# Tech Stack
+This project uses MySQL as the database, SQL for writing and managing queries, and optionally a backend like Python, Node.js, or Java and a frontend framework such as React, HTML, or Bootstrap depending on implementation.
 
-#Author
+# Author
 Name: Harshit Singh
 LinkedIn:[(https://www.linkedin.com/in/harshit-singh-7a209a282/](https://www.linkedin.com/in/harshit-singh-7a209a282/)
